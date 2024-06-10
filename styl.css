@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html body{
+    height: 100%;
+    width:100%
+}
+#container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.4fr 1.5fr 1.3fr 1.2fr;
+}
+
+nav{
+    background-color: aqua;
+}
+.sidebar{
+    background-color: darkcyan;
+}
+main{
+    background-color: blueviolet;
+}
+.box1{
+    background-color: cadetblue;
+}
+.box2{
+    background-color: chocolate;
+}
+.box3{
+    background-color: cornflowerblue;
+}
+.box4{
+    background-color: brown;
+}
+footer{
+    background-color: darkgray;
+}
